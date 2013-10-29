@@ -1,0 +1,58 @@
+#grandma {
+  position: absolute;
+  margin-left: 460px;
+  margin-top: -320px;
+  height: 300px;
+
+}
+
+#click {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 200px;
+  //border: 2px solid white;
+}
+
+#cat1{
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 130px;
+  opacity: 0;
+}
+
+#cat1:hover{
+  opacity: 1;
+}
+
+#cat2{
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 480px;
+  opacity: 0;
+}
+
+#cat2:hover{
+  opacity: 1;
+}
+
+#letter_small{
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -220px;
+}
+
+#letter_large{
+  position: absolute;
+  margin-top: -445px;
+}
+
+#recipe_small{
+  position: absolute;
+  margin-left: 190px;
+  margin-top: -170px;
+}
+
+#recipe {
+  position: absolute;
+  margin-top: -445px;
+}

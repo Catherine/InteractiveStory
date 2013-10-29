@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apartment</title>
+    <link href="../../css/format_stylesheet.css" rel="stylesheet" type="text/css" />
+    <!-- I suggest we leave the main style sheet as is, and add additional ones for editing pieces we add, that way we don't have a bunch of css files with the same properties and it will prevent us from mixing them up when all have to submit changes -->
+    <link href="../../css/elevator_stylesheet.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <table id="screen">
+
+        <tr id="top">
+          <!-- MAIN SCREEN TO PUT ASSETS IN -->
+          <td id="interaction" class="box">
+            <!-- BACKGROUND IMAGE. Should be w=630, h=445 -->
+            <img id="backgound_img" src="../../images/panel.png"/>
+
+            <!-- other assets in the room -->
+            <table id="buttons">
+              <tr>
+                <td><a href="floor4/leave_elevator.html"><img src="../../images/elevator_button_blank.png" /> </a> </td>
+              </tr>
+              <tr>
+                <td><a href="floor2/leave_elevator.html"><img src="../../images/elevator_button_blank.png" /> </a> </td>
+                <td><a href="floor3/leave_elevator.html"><img src="../../images/elevator_button_blank.png" /> </a> </td>
+              </tr>
+              <tr>
+                <td><a href="inside_elevator_no_basement.html"><img src="../../images/elevator_button_blank.png" /> </a> </td>
+                <td><a href="floor1/lobby.html"><img src="../../images/elevator_button_blank.png" /> </a> </td>
+              </tr>
+            </table>
+
+
+          </td>
+          <!-- Right column -->
+          <td id="nav_right" class="box">
+            
+          </td>
+        </tr>
+
+        <!-- Lower Section -->
+        <tr id="footer">
+          <!-- WHERE ANY TEXT WILL BE PUT -->
+          <td id="text_field" class="box">
+            <p>There are no residencies in the basement, please choose another floor.</p>
+          </td>
+          <!-- NAVIGATION: change destinations and check to make sure correct arrow color is called -->
+          <td id="nav_bot_right" class="box">
+            <table id="navigation">
+              <tr class="oneArrow">
+                <td>
+                  <!-- <a href="file.html"> -->
+                    <img src="../images/arrow_up_dead.png"/>
+                  <!-- </a> -->
+                </td>
+              </tr>
+              <tr id="twoArrow">
+                <td class="left">
+                  <!-- <a href="file.html"> -->
+                    <img src="../images/arrow_left_dead.png"/>
+                  <!-- </a> -->
+                </td>
+                <td>
+                  <!-- <a href="file.html"> -->
+                    <img src="../images/arrow_right_dead.png"/>
+                  <!-- </a> -->
+                </td>
+              </tr>
+              <tr class="oneArrow">
+                <td>
+                  <!-- <a href="file.html"> -->
+                    <img src="../images/arrow_down_dead.png"/>
+                  <!-- </a> -->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </body>
+</html>
+
+

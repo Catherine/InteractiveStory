@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apartment</title>
+
+<script type="text/javascript" src="jquery-1.9.1.min.js"> </script>
+
+    <link href="../../../css/format_stylesheet.css" rel="stylesheet" type="text/css" />
+    <!-- I suggest we leave the main style sheet as is, and add additional ones for editing pieces we add, that way we don't have a bunch of css files with the same properties and it will prevent us from mixing them up when all have to submit changes -->
+    <link href="../../../css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <table id="screen">
+
+        <tr id="top">
+          <!-- MAIN SCREEN TO PUT ASSETS IN -->
+          <td id="interaction" class="box">
+            <!-- BACKGROUND IMAGE. Should be w=630, h=445 -->
+            <img id="backgound_img" src="../../../images/artist_doorway.png" width="630px" height="445px"/>
+            <!-- other assets in the room -->
+
+			<a href="artist_doorway1_4.html"><img id="flower_painting" src="../../../images/flower_painting_large.png" style="opacity:1.0; margin-left:255px;" /></a>
+
+          </td>
+  <!-- Right column -->
+          <td id="nav_right" class="box"><p><strong>Floor: 4</strong></p>
+
+          </td>
+        </tr>
+
+
+
+        <!-- Lower Section -->
+        <tr id="footer">
+          <!-- WHERE ANY TEXT WILL BE PUT -->
+          <td id="text_field" class="box">
+
+            <!-- <a href="instructions_in_game4.html">
+              <p>WHEN YOU INTERACT WITH A PERSON, THE DIALOGUE TO YOUR CONVERSATION WILL APPEAR HERE<br>[clicking this text will advance the conversation]</p>
+            </a> -->
+
+          </td>
+          <!-- NAVIGATION: change destinations and check to make sure correct arrow color is called -->
+          <td id="nav_bot_right" class="box">
+            <table id="navigation">
+              <tr class="oneArrow">
+                <td>
+                 <a href="artist_room1_4.html">
+                    <img src="../../../images/arrow_up_active.png"/>
+                </a>
+                </td>
+              </tr>
+
+              <tr id="twoArrow">
+                <td class="left">
+                  <a href="shelf1_4.html">
+                    <img src="../../../images/arrow_left_active.png"/>
+                  </a>
+                </td>
+                <td>
+						    
+                    <img src="../../../images/arrow_right_dead.png"/>
+				
+                </td>
+              </tr>
+
+              <tr class="oneArrow">
+                <td>
+              
+                    <img src="../../../images/arrow_down_dead.png"/>
+               
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </body>
+</html>
+
+
+

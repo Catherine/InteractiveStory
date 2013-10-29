@@ -1,0 +1,36 @@
+#found_keys {
+  position: absolute;
+  margin-top: -75px;
+  margin-left: 200px;
+}
+
+#large_keys {
+  position: absolute;
+  margin-top: -275px;
+  margin-left: 200px;
+}
+
+/*#inventory_keys {
+  position: absolute;
+  width: 10%;
+}*/
+
+#grandma {
+  position: absolute;
+  margin-top: -375px;
+  margin-left: 100px;
+}
+
+#grandma_far {
+  position: absolute;
+  margin-top: -285px;
+  margin-left: 335px;
+  width: 75px;
+
+}
+
+#grandma2 {
+  position: absolute;
+  margin-top: -375px;
+  margin-left: 300px;
+}

@@ -1,0 +1,35 @@
+#main img {
+  display: block;
+  position: absolute;
+  border-radius: 4px;
+}
+
+#startButton {
+  position: absolute;
+  margin-left: 520px;
+  margin-top: 430px;
+}
+
+#instructionButton {
+  position: absolute;
+  margin-left: 520px;
+  margin-top: 500px;
+}
+
+#backButton{
+  position: absolute;
+  margin-top: 520px;
+  margin-left: 0px;
+
+}
+
+#continueButton {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 500px;
+}
+
+/*#firstArrow {
+  position: absolute;
+  z-index: 500;
+}*/

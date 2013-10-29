@@ -1,0 +1,13 @@
+#firstArrow {
+  position: absolute;
+  z-index: 105;
+  margin-left: 490px;
+  margin-top: -150px;
+}
+
+#secondArrow {
+  position: absolute;
+  z-index: 105;
+  margin-left: 20px;
+  margin-top: -125px;
+}

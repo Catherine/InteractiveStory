@@ -1,0 +1,219 @@
+/**{border: 1px dashed #fff;}*/
+
+html,body {
+    width:100%;
+    height:100%;
+    background-color: #181818;
+    background-color: #797264;
+    font-family: Verdana, sans-serif;
+}
+
+html {display:table;}
+
+body {
+    display:table-cell;
+    vertical-align:middle;
+
+}
+
+#choice1{
+	width:300px;
+	border: solid 1px #999;
+	padding-left:5px;
+	
+}
+
+#choice2{
+	width:300px;
+	border: solid 1px #999;
+	padding-left:5px;
+
+}
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;  /*screen width*/
+  height: 600px; /*screen height*/
+  background-color: #3B372C;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+}
+
+#screen {
+  width: 780;    /*adjusted screen width because of padding*/
+  height: 580:;  /*adjusted screen height because of padding*/
+}
+
+  #top {
+  }
+
+    #interaction {
+      position: absolute;
+      width: 630px;
+      height: 445px;
+    }
+
+    #interaction #background_img { /* w= 630, h= 445*/
+      display:block;
+      position: absolute;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    /* img can be whatever is placed as the background image. if you use
+    another image, give it an id*/
+
+    #nav_right {
+      position: absolute;
+      width: 125px;
+      height: 387px;
+      margin-left: 650px;
+      background-color: #5F5E35;
+    }
+
+    #nav_right p {
+      text-align: center;
+    }
+
+  #footer {
+    position: bottom;
+    height: 125px;
+    width: auto;
+  }
+
+    #text_field {
+      position: absolute;
+      background-color: #797264;
+      width: 578px;
+      height: 110px;
+      text-align: center;
+      margin-top: 455px;
+
+    }
+
+    #text_field p {
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+	  padding-left:3px;
+    }
+
+    #text_field a {
+      text-decoration: none;
+    }
+
+    #nav_bot_right {
+      position: absolute;
+      width: 189px;  /*these two numbers are "weird" because they have to to line up borders on top of each other*/
+      height: 179px;
+      background-color: #D2D0A2;
+      margin-left: 595px;;
+      margin-top: 395px;
+    }
+
+      #navigation {
+        border-spacing: 2px 1px;
+        width: inherit;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #navigation img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: 80%;
+      }
+
+      #navigation img:hover {
+        border: 2px solid yellow;
+      }
+
+      #twoArrow {
+        display: block;
+        margin-left: -70px;
+      }
+
+      #twoArrow .left{
+        width: 190px;
+      }
+
+
+/*BOX = things to be outlined, mainly the main four boxes*/
+.box {
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+#smbags {
+	position: absolute;
+	margin-left: 280px;
+	margin-top: -300px;
+	width: 170px;
+}
+#smsbags {
+	position: absolute;
+	margin-left: 80px;
+	margin-top: -370px;
+	width: 170px;
+}
+#smsface {
+	position: absolute;
+	margin-left: 75px;
+	margin-top: -380px;
+	width: 145px;
+}
+#pink_teddy {
+	position: absolute;
+	margin-top: -220px;
+	z-index: 8;
+	margin-left: 90px;
+	width: 80px;
+	opacity:0.0;
+}
+#pink_teddy:hover{
+	opacity:1.0;
+}
+#scary {
+	position: absolute;
+	margin-top: -320px;
+	z-index: 8;
+	margin-left: 50px;
+	opacity:0.0;
+}
+#scary:hover{
+	opacity:1.0;
+}
+#sneaks {
+	position: absolute;
+	margin-top: -90px;
+	z-index: 8;
+	margin-left: -120px;
+	width: 50px;
+	opacity:0.0;
+}
+#sneaks:hover{
+	opacity:1.0;
+}
+#squirrel {
+	position: absolute;
+	margin-top: -380px;
+	z-index: 8;
+	margin-left: -50px;
+	width: 30px;
+	opacity:0.0;
+}
+#squirrel:hover{
+	opacity:1.0;
+}
+#daughter{
+	margin-top: -321px;
+	z-index: 8;
+	position: absolute;
+	margin-left: 300px;
+}

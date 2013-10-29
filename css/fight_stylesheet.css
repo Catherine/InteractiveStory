@@ -1,0 +1,43 @@
+#couple {
+  position: absolute;
+  margin-top: -505px;
+  margin-left: 40px;
+}
+#injured_wife{
+  position: absolute;
+  margin-top: -535px;
+  margin-left: 20px;
+}
+#man_floor{
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 200px;
+}
+#wife_talking{
+  position: absolute;
+  margin-top: -447px;
+  margin-left: 250px;
+}
+#police_man{
+  position: absolute;
+  margin-top: -335px;
+  margin-left: 250px;
+}
+#grumpycat{
+  position: absolute;
+  margin-top: -325px;
+  margin-left: 375px;
+   opacity:0.0;
+}
+#grumpycat:hover {
+	opacity:1.0;
+}
+#moneytable{
+  position: absolute;
+  margin-top: -173px;
+  margin-left: 450px;
+  opacity:0.0;
+}
+#moneytable:hover {
+	opacity:1.0;
+}

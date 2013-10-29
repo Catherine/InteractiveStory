@@ -1,0 +1,15 @@
+#buttons {
+  position: absolute;
+  z-index: 100;
+  margin-top: -425px;
+  padding-left: 125px;
+  border-spacing: 120px 25px;
+}
+
+#buttons td {
+  opacity: 0;
+}
+
+#buttons td:hover {
+  opacity: .5;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apartment</title>
+
+<script type="text/javascript" src="jquery-1.9.1.min.js"> </script>
+
+    <link href="../../../../css/format_stylesheet.css" rel="stylesheet" type="text/css" />
+    <!-- I suggest we leave the main style sheet as is, and add additional ones for editing pieces we add, that way we don't have a bunch of css files with the same properties and it will prevent us from mixing them up when all have to submit changes -->
+    <link href="../../../../css/ingameinstructions_stylesheet.css" rel="stylesheet" type="text/css" />
+        <link href="../../../../css/style.css" rel="stylesheet" type="text/css" />
+      </head>
+  <body>
+    <div id="main">
+      <table id="screen">
+
+        <tr id="top">
+          <!-- MAIN SCREEN TO PUT ASSETS IN -->
+          <td id="interaction" class="box">
+            <!-- BACKGROUND IMAGE. Should be w=630, h=445 -->
+          <img src="../../../../images/kitchen1.png" width="630px" height="445px" />
+
+          <div class="water"> <img src="../../../../images/water.png" height="61px"/> </div>
+
+          <div class="flame"> <img src="../../../../images/flame.png" style="margin-left:-30px;" height="100px"/>
+          <img src="../../../../images/flame_princess.png" style="margin-left:-30px;" height="100px" />
+          <img src="../../../../images/flame_face.png"  style="margin-left:-15px;" height="100px"/>
+          </div>
+
+          </td>
+  <!-- Right column -->
+          <td id="nav_right" class="box">
+            <p><strong>Floor: 2</strong></p>
+            <p><strong></strong></p>
+            <img src="../../../../images/floorplanblank.png">
+             <p><strong>Inventory:</strong><p>
+            <img id="inventory_keys" src="../../../../images/keys_medium.png"/>
+          </td>
+        </tr>
+
+
+
+        <!-- Lower Section -->
+        <tr id="footer">
+          <!-- WHERE ANY TEXT WILL BE PUT -->
+          <td id="text_field" class="box">
+
+            <!-- <a href="instructions_in_game4.html">
+              <p>WHEN YOU INTERACT WITH A PERSON, THE DIALOGUE TO YOUR CONVERSATION WILL APPEAR HERE<br>[clicking this text will advance the conversation]</p>
+            </a> -->
+
+          </td>
+          <!-- NAVIGATION: change destinations and check to make sure correct arrow color is called -->
+          <td id="nav_bot_right" class="box">
+            <table id="navigation">
+              <tr class="oneArrow">
+                <td>
+
+                    <img src="../../../../images/arrow_up_dead.png"/>
+
+                </td>
+              </tr>
+
+              <tr id="twoArrow">
+                <td class="left">
+                 <a href="hallway_door_leave1_2.html">
+                    <img src="../../../../images/arrow_left_active.png"/>
+                  </a>
+                </td>
+                <td>
+                   <a href="livingroom1_2.html">
+                    <img src="../../../../images/arrow_right_active.png"/>
+         </a>
+                </td>
+              </tr>
+
+              <tr class="oneArrow">
+                <td>
+
+                    <img src="../../../../images/arrow_down_dead.png"/>
+
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </body>
+</html>
+
+
+
